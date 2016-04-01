@@ -1,0 +1,12 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.1">
+  <id>org.fluidea.FirstANE</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>FirstANE.jar</nativeLibrary>
+        <initializer>org.fluidea.FirstANEExtension</initializer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
